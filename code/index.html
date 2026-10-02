@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="PixelPulse is a next-generation gaming platform for competitive play, live tournaments, and community-driven experiences."
+    />
+    <title>PixelPulse | Gaming Universe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwUEQpD+JX2PrQ7c/7Z4S8wQzjBtK1bTxR4Yg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <nav class="nav container">
+          <div class="brand" aria-label="PixelPulse home">
+            <div class="brand-mark">P</div>
+            <span>PixelPulse</span>
+          </div>
+
+          <div class="nav-links">
+            <a href="#discover">Discover</a>
+            <a href="#games">Games</a>
+            <a href="#tournaments">Tournaments</a>
+            <a href="#community">Community</a>
+          </div>
+
+          <div class="nav-actions">
+            <button class="ghost-button">Log in</button>
+            <button class="primary-button">Play now</button>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero container" id="discover">
+          <div class="hero-copy">
+            <div class="eyebrow">
+              <span class="pulse-dot"></span>
+              Live esports and community events
+            </div>
+
+            <h1>Level up with the next wave of gaming.</h1>
+            <p>
+              Jump into competitive battles, explore rich worlds, and connect with
+              a global squad that never sleeps. Play solo or with friends, online or offline, and jump into endless runner action inspired by Temple Run and Subway Surfers.
+            </p>
+
+            <div class="cta-row">
+              <button class="primary-button large">Join the arena</button>
+              <button class="secondary-button large">Explore games</button>
+            </div>
+
+            <ul class="hero-stats" aria-label="Platform stats">
+              <li>
+                <strong>10M+</strong>
+                <span>players</span>
+              </li>
+              <li>
+                <strong>2.4K</strong>
+                <span>daily matches</span>
+              </li>
+              <li>
+                <strong>350+</strong>
+                <span>live events</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Featured game card">
+            <div class="game-poster">
+              <div class="poster-badge">Featured</div>
+              <div class="poster-content">
+                <p class="label">Season 9</p>
+                <h2>Void Runner</h2>
+                <div class="poster-meta">
+                  <span>Co-op raids</span>
+                  <span>4.9 rating</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mini-card">
+              <div class="mini-card-top">
+                <span class="tag">Live</span>
+                <span class="value">$18.5K</span>
+              </div>
+              <p>Cyber Clash Championship</p>
+              <div class="mini-progress">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="play-modes container" aria-label="Play modes">
+          <div class="section-heading">
+            <div>
+              <p class="kicker">Play your way</p>
+              <h2>Solo, squad, online, or offline.</h2>
+            </div>
+          </div>
+
+          <div class="mode-grid">
+            <article class="mode-card">
+              <div class="mode-icon"><i class="fa-solid fa-user"></i></div>
+              <h3>Solo Campaign</h3>
+              <p>Explore immersive story missions and train your skills at your own pace.</p>
+            </article>
+
+            <article class="mode-card highlight">
+              <div class="mode-icon"><i class="fa-solid fa-people-group"></i></div>
+              <h3>Co-op with Friends</h3>
+              <p>Team up with friends for raids, co-op missions, and real-time strategy.</p>
+            </article>
+
+            <article class="mode-card">
+              <div class="mode-icon"><i class="fa-solid fa-wifi"></i></div>
+              <h3>Online Battles</h3>
+              <p>Challenge players worldwide in ranked matches, tournaments, and events.</p>
+            </article>
+
+            <article class="mode-card">
+              <div class="mode-icon"><i class="fa-solid fa-gamepad"></i></div>
+              <h3>Offline Practice</h3>
+              <p>Train offline anytime, sharpen your aim, and enjoy local play without internet.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="featured container" id="games">
+          <div class="section-heading">
+            <div>
+              <p class="kicker">Popular titles</p>
+              <h2>Discover your next obsession.</h2>
+            </div>
+            <div class="filter-tabs" aria-label="Game categories">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="fps">FPS</button>
+              <button class="filter-btn" data-filter="rpg">RPG</button>
+              <button class="filter-btn" data-filter="battle">Battle</button>
+            </div>
+          </div>
+
+          <div class="game-grid">
+            <article class="game-card" data-category="fps">
+              <div class="cover cover-one"></div>
+              <div class="game-info">
+                <div class="row">
+                  <span class="genre">FPS</span>
+                  <span class="rating"><i class="fa-solid fa-star"></i> 4.8</span>
+                </div>
+                <h3>Strike Ops</h3>
+                <p>Dominate fast-paced urban firefights with elite squad tactics.</p>
+                <div class="card-footer">
+                  <span>3.2M players</span>
+                  <button>Play now</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="game-card" data-category="rpg">
+              <div class="cover cover-two"></div>
+              <div class="game-info">
+                <div class="row">
+                  <span class="genre">RPG</span>
+                  <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
+                </div>
+                <h3>Moonfall</h3>
+                <p>Forge legendary gear and uncover ancient secrets across a fractured moon.</p>
+                <div class="card-footer">
+                  <span>1.8M players</span>
+                  <button>Play now</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="game-card" data-category="battle">
+              <div class="cover cover-three"></div>
+              <div class="game-info">
+                <div class="row">
+                  <span class="genre">Battle</span>
+                  <span class="rating"><i class="fa-solid fa-star"></i> 4.7</span>
+                </div>
+                <h3>Glitch Arena</h3>
+                <p>Outplay rivals in a neon battleground built for split-second strategy.</p>
+                <div class="card-footer">
+                  <span>2.4M players</span>
+                  <button>Play now</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="game-card" data-category="fps">
+              <div class="cover cover-four"></div>
+              <div class="game-info">
+                <div class="row">
+                  <span class="genre">FPS</span>
+                  <span class="rating"><i class="fa-solid fa-star"></i> 4.8</span>
+                </div>
+                <h3>Nova Siege</h3>
+                <p>Lead your squad through orbital assault maps and tactical choke points.</p>
+                <div class="card-footer">
+                  <span>4.1M players</span>
+                  <button>Play now</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="featured-banner container">
+          <div class="banner-copy">
+            <p class="kicker">Weekend event</p>
+            <h2>Steal the spotlight in the Pixel Royale championship.</h2>
+          </div>
+          <button class="primary-button large">Register now</button>
+        </section>
+
+        <section class="arcade container" id="arcade">
+          <div class="section-heading">
+            <div>
+              <p class="kicker">Arcade zone</p>
+              <h2>Play the next hit runner.</h2>
+            </div>
+          </div>
+
+          <div class="arcade-panel">
+            <div class="arcade-info">
+              <h3>Temple Rush</h3>
+              <p>
+                Dash through ancient traps, dodge barriers, collect coins, and survive as long as you can in a fast endless runner inspired by Temple Run and Subway Surfers.
+              </p>
+
+              <div class="arcade-stats">
+                <div>
+                  <span>Score</span>
+                  <strong id="scoreDisplay">0</strong>
+                </div>
+                <div>
+                  <span>Best</span>
+                  <strong id="bestDisplay">0</strong>
+                </div>
+              </div>
+
+              <div class="arcade-controls">
+                <button id="startGameBtn" class="primary-button">Start game</button>
+                <button id="restartGameBtn" class="secondary-button">Restart</button>
+              </div>
+
+              <div class="controls-hint" aria-label="Game controls">
+                <span>Move: A / D</span>
+                <span>Jump: W / ↑</span>
+                <span>Slide: S / ↓</span>
+              </div>
+            </div>
+
+            <div class="canvas-wrap">
+              <canvas id="runnerCanvas" width="420" height="620" aria-label="Temple Rush runner game"></canvas>
+            </div>
+          </div>
+        </section>
+
+        <section class="tournaments container" id="tournaments">
+          <div class="section-heading left">
+            <div>
+              <p class="kicker">Competitive play</p>
+              <h2>Featured tournaments</h2>
+            </div>
+          </div>
+
+          <div class="tournament-list">
+            <div class="tournament-item">
+              <div class="tournament-date">
+                <span class="month">May</span>
+                <strong>24</strong>
+              </div>
+              <div class="tournament-body">
+                <div class="tournament-tag">Esports</div>
+                <h3>Global Circuit Finals</h3>
+                <p>16 elite squads battle for the $250K prize pool.</p>
+              </div>
+              <button class="secondary-button small">View details</button>
+            </div>
+
+            <div class="tournament-item">
+              <div class="tournament-date">
+                <span class="month">Jun</span>
+                <strong>02</strong>
+              </div>
+              <div class="tournament-body">
+                <div class="tournament-tag">Co-op raid</div>
+                <h3>Nightfall Cup</h3>
+                <p>Team up, survive the dungeon, and claim the crown.</p>
+              </div>
+              <button class="secondary-button small">View details</button>
+            </div>
+
+            <div class="tournament-item">
+              <div class="tournament-date">
+                <span class="month">Jun</span>
+                <strong>16</strong>
+              </div>
+              <div class="tournament-body">
+                <div class="tournament-tag">Community</div>
+                <h3>Creator Clash</h3>
+                <p>Streamers and fans face off for bragging rights and loot.</p>
+              </div>
+              <button class="secondary-button small">View details</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="community container" id="community">
+          <div class="community-panel">
+            <div class="community-copy">
+              <p class="kicker">Join the squad</p>
+              <h2>Build your legend with friends.</h2>
+              <p>
+                Create squads, join clans, share builds, and stay connected through every match.
+              </p>
+            </div>
+
+            <div class="community-avatars" aria-label="Friends online">
+              <span style="--index: 0">A</span>
+              <span style="--index: 1">K</span>
+              <span style="--index: 2">M</span>
+              <span style="--index: 3">S</span>
+              <span style="--index: 4">+12</span>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container footer-inner">
+          <div class="brand footer-brand">
+            <div class="brand-mark">P</div>
+            <span>PixelPulse</span>
+          </div>
+          <div class="footer-links">
+            <a href="#discover">Home</a>
+            <a href="#games">Games</a>
+            <a href="#tournaments">Tournaments</a>
+            <a href="#community">Community</a>
+          </div>
+          <div class="footer-copy">© <span id="year"></span> PixelPulse</div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
